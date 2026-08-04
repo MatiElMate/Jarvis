@@ -1,0 +1,38 @@
+{
+  "profiles": {
+    "modo_trabajo": {
+      "description": "Abre el entorno de desarrollo, buscador y canales de comunicación.",
+      "apps": {
+        "common": ["vscode"],
+        "windows": ["whatsapp_native"],
+        "linux": []
+      },
+      "urls": [
+        "https://google.com",
+        "https://web.whatsapp.com"
+      ]
+    },
+    "modo_ocio": {
+      "description": "Abre plataformas de streaming o reproductores de música.",
+      "apps": {
+        "common": ["spotify"],
+        "windows": [],
+        "linux": []
+      },
+      "urls": [
+        "https://youtube.com"
+      ]
+    }
+  },
+  "app_mappings": {
+    "windows": {
+      "vscode": "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+      "whatsapp_native": "whatsapp://",
+      "spotify": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Spotify\\Spotify.exe"
+    },
+    "linux": {
+      "vscode": "code",
+      "spotify": "spotify"
+    }
+  }
+}

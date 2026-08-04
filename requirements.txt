@@ -1,0 +1,9 @@
+# Cliente para IA (Ollama local o OpenAI / Gemini API)
+ollama>=0.3.0
+openai>=1.0.0
+
+# Gestión de variables de entorno
+python-dotenv>=1.0.0
+
+# Validación de esquemas y tipos de datos (opcional pero muy útil)
+pydantic>=2.0.0

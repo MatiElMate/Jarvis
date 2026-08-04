@@ -1,0 +1,19 @@
+{
+  "assistant_name": "Jarvis",
+  "ai_provider": {
+    "type": "ollama",
+    "model": "llama3.2:3b",
+    "api_base_url": "http://localhost:11434",
+    "fallback_to_cloud": false
+  },
+  "behavior": {
+    "auto_confirm_actions": true,
+    "run_on_startup": true
+  },
+  "voice": {
+    "enabled": false,
+    "wake_word": "hola asistente",
+    "stt_engine": "whisper_local",
+    "tts_engine": "piper"
+  }
+}
