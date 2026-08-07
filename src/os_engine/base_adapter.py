@@ -10,7 +10,7 @@ class BaseAdapter(ABC):
     """
 
     @abstractmethod
-    def open_aplication(self, app_path_or_cmd: str) -> bool:
+    def open_application(self, app_path_or_cmd: str) -> bool:
         """
         Abre una aplicación de forma asíncrona (no bloqueante).
 

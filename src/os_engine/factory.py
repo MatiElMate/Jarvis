@@ -1,4 +1,4 @@
-from sys import platform
+import platform
 import os
 
 
@@ -28,6 +28,6 @@ def get_adapter():
 
         _adapter_instance = LinuxAdapter()
     else:
-        raise NotImplementedError(f"El sistema operativo " + platform_os + "no está soportado actualmente")
+        raise NotImplementedError(f"El sistema operativo '{platform_os}' no está soportado actualmente")
 
     return _adapter_instance

@@ -5,35 +5,39 @@ from os import O_APPEND
 from re import sub
 import os
 import subprocess
-from urllib import urlparse
 import logging
 from src.os_engine.base_adapter import BaseAdapter
+from urllib.parse import urlparse
 from pathlib import Path
 
 
 logger = logging.getLogger(__name__)
-
-class Windows(BaseAdapter):
-    def open_aplication(self, app_path_or_cmd: str) -> bool:
+creation_flags = getattr(subprocess, "DETACHED_PROCESS", 0x00000008)
+class WindowsAdapter(BaseAdapter):
+    def open_application(self, app_path_or_cmd: str) -> bool:
         """ Abre una aplicación de forma asíncrona sin bloquear el asistente.
         Soporta rutas absolutas, comandos de sistema y protocolos URI (ej. whatsapp://)."""
 
         try:
-            extended_path = urlparse(os.getenv(app_path_or_cmd))
+            extended_path = os.path.expandvars(app_path_or_cmd)
 
-            if(extended_path.scheme and extended_path.netloc):
+            parsed = urlparse(extended_path)
+
+            if(parsed.scheme):
                 subprocess.Popen(
-                    "start \"\" \"" + extended_path + "\"",
+                    f'start "" "{extended_path} ""',
                     shell= True,
-                    stdout= DEVNULL
+                    stdout= subprocess.DEVNULL,
+                    stderr= subprocess.DEVNULL
                 )
                 return True
             else:
                 subprocess.Popen(
                     [extended_path],
                     shell= True,
-                    start_new_session= True,
-                    stdout=True
+                    creationflags= creation_flags,
+                    stdout= subprocess.DEVNULL,
+                    stderr= subprocess.DEVNULL
                 )
                 return True
         
@@ -45,9 +49,9 @@ class Windows(BaseAdapter):
         """ Abre un enlace web en el navegador predeterminado de Windows"""
         try:
             subprocess.Popen(
-                "start \"\" \"" + url + "\"",
+               f'start "" "{url}"',
                 shell = True,
-                stdout= True
+                stdout=subprocess.DEVNULL
             )
             return True
         except Exception as e:
@@ -59,21 +63,19 @@ class Windows(BaseAdapter):
 
         try:
             name = process_name
-            if not(Path(name).suffix == "exe"):
-                name == f"{name} + .exe"
+            if Path(name).suffix != ".exe":
+                name = f"{name}.exe"
             
-            result = subprocess.Popen(
-                ["tasklist","/FI", "IMAGENAME eq" + name],
-                stdout=PIPE,
+            result = subprocess.run(
+                ["tasklist","/FI", "IMAGENAME eq " + name],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
                 text= True
             )
 
             out_text = (result.stdout).lower()
 
-            if name.lower() in out_text:
-                return True
-            else:
-                return False
+            return name.lower() in out_text
             
         except Exception as e:
             logger.error(f"[WindowsAdapter] Error al verificar proceso {process_name} : {e}")
@@ -84,16 +86,16 @@ class Windows(BaseAdapter):
             result = subprocess.run(
                 command,
                 shell= True,
-                stdout=PIPE,
-                stderr= PIPE,
+                stdout=subprocess.PIPE,
+                stderr= subprocess.PIPE,
                 text= True
             )
 
-            if result.stdout == 0:
+            if result.returncode == 0:
                 return (True, (result.stdout).strip())
             else:
                 return (False, (result.stderr).strip())
         
         except Exception as e:
             logger.error(f"[WindowsAdapter] Error al ejecutar el comando {command} : {e}")
-            return (False, e)
+            return (False, str(e))
