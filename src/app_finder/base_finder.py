@@ -8,7 +8,7 @@ class BaseAppFinder(ABC):
     con @abstractmethod.
     """
     @abstractmethod
-    def get_apps() -> dict[str, str]:
+    def get_apps(self) -> dict[str, str]:
         """
         Escanea el sistema operativo en busca de aplicaciones instaladas.
         

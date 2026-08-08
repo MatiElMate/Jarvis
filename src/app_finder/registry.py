@@ -21,10 +21,10 @@ class AppRegistry():
         
 
     def get_app_path(self, user_prompt) -> Optional[str]:
-        if self.apps is None:
+        if not self.apps:
             self.refresh_cache()
 
-        clean_text = user_prompt.strip().lower
+        clean_text = user_prompt.strip().lower()
 
         if clean_text in self.alias:
             clean_text = self.alias[clean_text]

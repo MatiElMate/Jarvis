@@ -10,13 +10,13 @@ def get_finder() -> BaseAppFinder:
     if os_name == "windows":
         from src.app_finder.windows_finder import WindowsAppFinder
         logger.info("Cargando el buscador de apps de Windows...")
-        return WindowsAppFinder
+        return WindowsAppFinder()
 
 
     elif os_name == "linux":
         from src.app_finder.linux_finder import LinuxAppFinder
         logger.info("Cargando el buscador de apps de Linux...")
-        return LinuxAppFinder
+        return LinuxAppFinder()
 
 
     else:

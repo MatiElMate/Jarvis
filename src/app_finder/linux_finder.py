@@ -1,5 +1,3 @@
-from numpy.core.defchararray import startswith
-from genericpath import exists
 from re import sub
 import logging
 from pathlib import Path
@@ -24,7 +22,7 @@ class LinuxAppFinder(BaseAppFinder):
         return self._desktop_paths
 
     
-    def _parse_desktop_file(file_path) -> tuple[str|None, str|None]:
+    def _parse_desktop_file(self,file_path) -> tuple[str|None, str|None]:
         name = None
         command = None
         hidden = False
@@ -33,15 +31,15 @@ class LinuxAppFinder(BaseAppFinder):
             for line in file:
                 line = line.strip()
             
-            if line.startswith("Name=") and name is None:
-                name = line.split("=", 1)[1]
+                if line.startswith("Name=") and name is None:
+                    name = line.split("=", 1)[1]
 
-            elif line.startswith("Excec=") and command is None:
-                brute_command = line.strip("=",1)[1]
-                command = brute_command.split("%")[0].strip().replace('"',"")
+                elif line.startswith("Exec=") and command is None:
+                    brute_command = line.split("=",1)[1]
+                    command = brute_command.split("%")[0].strip().replace('"',"")
             
-            elif line.startswith("NoDisplay=true"):
-                hidden = True
+                elif line.startswith("NoDisplay=true"):
+                    hidden = True
         
         if hidden:
             return (None,None)
