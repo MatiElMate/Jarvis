@@ -1,8 +1,6 @@
 from numpy.core.defchararray import startswith
 from genericpath import exists
 from re import sub
-import shlex
-import subprocess
 import logging
 from pathlib import Path
 from src.app_finder.base_finder import BaseAppFinder
@@ -50,7 +48,7 @@ class LinuxAppFinder(BaseAppFinder):
         else:
             return (name,command)
 
-    def get_apps(self):
+    def get_apps(self) -> dict[str,str]:
         apps = {}
 
         for folder in self.desktop_paths: 
