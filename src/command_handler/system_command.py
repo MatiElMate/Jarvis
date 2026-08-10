@@ -1,9 +1,7 @@
-from numpy import number
 from src.os_engine.base_adapter import BaseAdapter
 from src.app_finder.registry import AppRegistry
-from pathlib import Path
-from typing import Optional, TypedDict, Dict, Any
-from dataclasses import dataclass, field
+from typing import Optional, Dict, Any
+from dataclasses import dataclass
 import requests
 import logging
 from src.command_handler.base_command import BaseCommand
@@ -15,7 +13,7 @@ logger = logging.getLogger(__name__)
 class CommandResult():
     success: bool
     msg: str
-    data: dict[str, Any] | None = None
+    data: Optional[Dict[str, Any]] = None
 
 class OpenAppCommand(BaseCommand):
     """Comando para buscar y abrir una aplicacion en el sistema"""
@@ -133,6 +131,8 @@ class CheckProcessCommand(BaseCommand):
 
 
 class ExecuteSystemCommand(BaseCommand):
+
+    """ Comando dedicado a ejecutar comandos propios del sistema operativo"""
 
     def __init__(self, os_adapter: BaseAdapter):
         self.os_engine = os_adapter
