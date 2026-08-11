@@ -4,6 +4,7 @@ import re
 from typing import Dict, Any, Optional, List, Tuple 
 from src.NLU.intent_recognizer.base_recognizer import BaseIntentRecognizer
 import logging
+from src.NLU.intent_recognizer.text_cleaner import text_normalizer
 
 logger = logging.getLogger(__name__)
 
@@ -38,15 +39,15 @@ class RuleIntentRecognizer(BaseIntentRecognizer):
 
     def parse(self, user_text: str) -> IntentResult:
 
-        if not user_text or not user_text.strip():
+        clean_text = text_normalizer(user_text)
+
+        if not clean_text:
             logger.debug("[RuleIntentRecognizer] Entrada vacía recibida.")
             return IntentResult(
                 action_name="unknown",
                 params={},
                 confidence= 0.0
             )
-
-        clean_text = user_text.strip()
 
         for pattern, action, param_key in self.patterns:
             match = pattern.search(clean_text)
