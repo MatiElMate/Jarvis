@@ -15,31 +15,30 @@ class RuleIntentRecognizer(BaseIntentRecognizer):
 
         self.patterns: List[Tuple[Pattern[str],str,str]] = [
             (
-                re.compile(r"(?:abrir|abre|abrime|iniciar|iniciame|lanza|lanzar|lanzame)\s(.+)"),re.IGNORECASE,
-            "open_url",
-            "app_name"
-            ),
-            (
-                re.compile(r"(?:navegar|entra|entrar|abrir sitio|navegame|ir a)\s(.+)"),re.IGNORECASE,
+                re.compile(r"(?:abrir url|abrir sitio|navegar a|entrar a|entra a|entrar en|entra|entrar|navegame|ir a)\s(.+)",re.IGNORECASE),
                 "open_url",
                 "url"
             ),
             (
-                re.compile(r"(?:comprobar|revisar|ver estado de|fijate)\s(.+)"),re.IGNORECASE,
+                re.compile(r"(?:comprobar proceso|comprobar|revisar proceso|revisar|ver proceso|esta corriendo|ver estado de|fijate|ver)\s(.+)",re.IGNORECASE),
                 "check_process",
                 "process_name"
             ),
             (
-                re.compile(r"(?:ejecutar|ejecutar comando|consola|cmd)\s(.+)"),re.IGNORECASE,
+                re.compile(r"(?:ejecutar comando|ejecutar|consola|cmd)\s(.+)",re.IGNORECASE),
                 "execute_command",
                 "command"
+            ),
+            (
+                re.compile(r"(?:abrir|abre|abrime|iniciar|iniciame|lanza|lanzar|lanzame)\s(.+)",re.IGNORECASE),
+            "open_app",
+            "app_name"
             )
         ]
 
     def parse(self, user_text: str) -> IntentResult:
-        clean_text = user_text.strip().lower()
 
-        if not clean_text:
+        if not user_text or not user_text.strip():
             logger.debug("[RuleIntentRecognizer] Entrada vacía recibida.")
             return IntentResult(
                 action_name="unknown",
@@ -47,7 +46,9 @@ class RuleIntentRecognizer(BaseIntentRecognizer):
                 confidence= 0.0
             )
 
-        for (pattern, action, param_key) in self.patterns:
+        clean_text = user_text.strip()
+
+        for pattern, action, param_key in self.patterns:
             match = pattern.search(clean_text)
 
             if match:

@@ -5,9 +5,11 @@ from typing import Dict, Any, Optional
 
 @dataclass
 class IntentResult:
+    """Contenedor de respuesta estandarizado para la intención analizada."""
+
     action_name: str
-    confidence: float
     params: Dict[str, Any] = field(default_factory=dict)
+    confidence: float = 0.0
 
 class BaseIntentRecognizer(ABC):
     
