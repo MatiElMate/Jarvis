@@ -25,14 +25,16 @@ class CommandDispatcher():
         self.os_adapter = os_adapter
         self.commands = {}
 
+        self._default_command_register()
+
     def _default_command_register(self):
-        self.command_register("open_app", OpenAppCommand(self.app_registry, self.os_adapter))
-        self.command_register("open_url", OpenUrlCommand(self.os_adapter))
-        self.command_register("check_process", CheckProcessCommand(self.os_adapter))
-        self.command_register("execute_command", ExecuteSystemCommand(self.os_adapter))
+        self.register_command("open_app", OpenAppCommand(self.app_registry, self.os_adapter))
+        self.register_command("open_url", OpenUrlCommand(self.os_adapter))
+        self.register_command("check_process", CheckProcessCommand(self.os_adapter))
+        self.register_command("execute_command", ExecuteSystemCommand(self.os_adapter))
 
     
-    def command_register(self, action:str, command: BaseCommand):
+    def register_command(self, action:str, command: BaseCommand):
         key = action.lower().strip()
 
         self.commands[key] = command
@@ -40,10 +42,10 @@ class CommandDispatcher():
 
     
     def dispatch(self, action: str, params: Optional[Dict[str,Any]] = None) -> CommandResult:
-        if not params:
+        if params is None:
             params = {}
         
-        action_key = action.lower().strip()
+        action_key = action.strip().lower()
 
         if action_key not in self.commands:
             logger.warning(f"[Dispatcher] Acción no reconocida: {action}")
@@ -52,7 +54,6 @@ class CommandDispatcher():
                 msg=f"No se encontró ningun comando para la accion: {action}"
             )
 
-        target_command = self.commands[action_key]
         logger.info(f"[Dispatcher] Ejecutando acción: {action_key}")
 
-        return target_command.execute(params)
+        return self.commands[action_key].execute(params)

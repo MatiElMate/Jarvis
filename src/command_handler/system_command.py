@@ -1,3 +1,4 @@
+from urllib3.util import url
 from src.os_engine.base_adapter import BaseAdapter
 from src.app_finder.registry import AppRegistry
 from typing import Optional, Dict, Any
@@ -29,7 +30,7 @@ class OpenAppCommand(BaseCommand):
         if not app_name:
             logger.warning(f"[SystemCommand] No se especificó una aplicación")
             return CommandResult(
-                success = True,
+                success = False,
                 msg = "No se especificó el nombre de la aplicacion"
             )
         
@@ -64,37 +65,34 @@ class OpenUrlCommand(BaseCommand):
     def __init__(self, os_adapter: BaseAdapter):
         self.os_engine = os_adapter
 
-    def execute(self, dictionary: Dict[str, Any]) ->CommandResult:
+    def execute(self, dictionary: Dict[str, Any]) -> CommandResult:
         url = dictionary.get("url")
-        try:
-            response = requests.head(url, timeout= 5)
-            if response < 400:
-                user_url = self.os_engine.open_url(url)
-                if user_url:
-                    logger.info(f"[SystemCommand] Éxito al abrir la URL {url}")
-                    return CommandResult(
-                        success= True,
-                        msg=f"La URL {url} se abrió con éxito",
-                        data= {"url": url}
-                    )
-                else:
-                    logger.error(f"[SystemCommand] Error al abrir la URL {url}")
-                    return CommandResult(
-                        success= False,
-                        msg=f"Error al abrir {url}"
-                    )
-            else:
-                logger.critical(f"[SystemCommand] La URL {url} no es válida")
-                return CommandResult(
-                    success=False,
-                    msg=f"La URL {url} no es valida"
-                )
-        except Exception as e:
-            logger.critical(f"[SystemCommand] No se pudo abrir la url {url} : {e}")
+        if not url:
+            logger.warning(f"[SystemCommand] No se recibió ninguna url")
             return CommandResult(
                 success= False,
-                msg=f"Error al intentar abrir la url {url}"
+                msg = f"No se encontró envió ninguna url"
             )
+
+        if not (url.startswith("http://") or url.startswith("https://")):
+            url = "https://" + url
+
+        
+        user_url = self.os_engine.open_url(url)
+        
+        if user_url:
+            logger.info(f"[SystemCommand] Éxito al abrir la URL {url}")
+            return CommandResult(
+                success= True,
+                msg=f"La URL {url} se abrió con éxito",
+                data= {"url": url}
+            )
+        else:
+            logger.error(f"[SystemCommand] Error al abrir la URL {url}")
+            return CommandResult(
+                success= False,
+                msg=f"Error al abrir {url}"
+                )
 
 class CheckProcessCommand(BaseCommand):
     """ Comando para detectar si un proceso está corriendo en el sistema"""
@@ -119,14 +117,14 @@ class CheckProcessCommand(BaseCommand):
             return CommandResult(
                 success= True,
                 msg= f"El proceso {process_name} está corriendo actualmente",
-                data= {"process" : process_name, "is_running" : running}
+                data= {"process_name" : process_name, "is_running" : running}
             )
         else:
             logger.info(f"[SystemCommand] El proceso {process_name} está actualmente inactivo")
             return CommandResult(
                 success= True,
                 msg= f"El proceso {process_name} no está corriendo actualmente",
-                data= {"process" : process_name, "is_running" : running}
+                data= {"process_name" : process_name, "is_running" : running}
             )
 
 
@@ -138,7 +136,7 @@ class ExecuteSystemCommand(BaseCommand):
         self.os_engine = os_adapter
 
     def execute(self, dictionary : Dict[str, Any]) -> CommandResult:
-        cmd_str = dictionary.get("cmd_str")
+        cmd_str = dictionary.get("command")
 
         if not cmd_str:
             logger.critical(f"[SystemCommand] No se proporciono un comando a ejecutar")
