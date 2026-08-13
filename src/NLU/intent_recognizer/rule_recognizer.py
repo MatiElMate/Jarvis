@@ -31,7 +31,7 @@ class RuleIntentRecognizer(BaseIntentRecognizer):
                 "command"
             ),
             (
-                re.compile(r"(?:abrir|abre|abrime|iniciar|iniciame|lanza|lanzar|lanzame)\s(.+)",re.IGNORECASE),
+                re.compile(r"(?:abrir|abre|abrime|iniciar|inicia|iniciame|lanza|lanzar|lanzame)\s(.+)",re.IGNORECASE),
             "open_app",
             "app_name"
             )

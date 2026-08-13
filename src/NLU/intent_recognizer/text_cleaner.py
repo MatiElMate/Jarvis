@@ -16,14 +16,13 @@ def text_normalizer(text:str) -> str:
     if not text or not text.strip():
         return ""
 
-    cleaned = text.lower()
-
-    cleaned = unicodedata.normalize('NFD',cleaned)
+    cleaned = unicodedata.normalize('NFD',text)
     cleaned = "".join(char for char in cleaned if unicodedata.category(char) != 'Mn')
 
 
-    cleaned = re.sub(r"[^\w\s]", "", cleaned)
+    cleaned = re.sub(r':(?!\/\/)|[?¿!¡,;\"\']', '', cleaned)
 
-    cleaned = re.sub(r"\s", "", cleaned).strip()
+
+    cleaned = re.sub(r"\s", " ", cleaned).strip()
 
     return cleaned
