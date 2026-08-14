@@ -1,20 +1,12 @@
 from urllib3.util import url
 from src.SL.os_engine.base_adapter import BaseAdapter
 from src.SL.app_finder.registry import AppRegistry
-from typing import Optional, Dict, Any
-from dataclasses import dataclass
+from typing import Dict, Any
 import requests
 import logging
-from src.SL.command_handler.base_command import BaseCommand
+from src.SL.command_handler.base_command import BaseCommand, CommandResult
 
 logger = logging.getLogger(__name__)
-
-
-@dataclass
-class CommandResult():
-    success: bool
-    msg: str
-    data: Optional[Dict[str, Any]] = None
 
 class OpenAppCommand(BaseCommand):
     """Comando para buscar y abrir una aplicacion en el sistema"""
