@@ -16,7 +16,7 @@ class RuleIntentRecognizer(BaseIntentRecognizer):
 
         self.patterns: List[Tuple[Pattern[str],str,str]] = [
             (
-                re.compile(r"(?:abrir url|abrir sitio|navegar a|entrar a|entra a|entrar en|entra|entrar|navegame|ir a)\s(.+)",re.IGNORECASE),
+                re.compile(r"(?:abrir url|abrir sitio|navegar a|entrar a|entra a|entrar en|entra|entrar|navegame|ir a |navega)\s(.+)",re.IGNORECASE),
                 "open_url",
                 "url"
             ),

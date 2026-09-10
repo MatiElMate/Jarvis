@@ -7,7 +7,7 @@ from src.NLU.intent_recognizer.factory import get_intent_recognizer
 
 logger = logging.getLogger(__name__)
 
-class AsistantCore:
+class AssistantCore:
     """
     Orquestador principal del asistente virtual.
     Une el módulo de NLU (intención) con el CommandDispatcher (ejecución).
@@ -25,7 +25,7 @@ class AsistantCore:
         logger.info("Core del sistema inicializado correctamente")
 
 
-    def procces_input(self, user_text: str) -> Dict[str,Any]:
+    def process_input(self, user_text: str) -> Dict[str,Any]:
         """
         Flujo principal:
         Texto -> Reconocimiento de Intención -> Despacho de Comando -> Respuesta
@@ -37,16 +37,16 @@ class AsistantCore:
 
         if intention.action_name == "unknown":
             logger.warning(f"No se pudo interpretar la accion: {user_text}")
-            return Dict(
+            return dict(
                 success= False,
                 msg= f"Lo lamento, no puedo entender la solicitud",
                 action= "unknown",
                 data= {}
             )      
             
-            dispatch = self.dispatcher.dispatch(intention.action_name,intention.params)
+        dispatch = self.dispatcher.dispatch(intention.action_name,intention.params)
 
-        return Dict(
+        return dict(
             success= dispatch.success,
             msg= dispatch.msg,
             action= intention.action_name,

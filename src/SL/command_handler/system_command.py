@@ -1,4 +1,3 @@
-from urllib3.util import url
 from src.SL.os_engine.base_adapter import BaseAdapter
 from src.SL.app_finder.registry import AppRegistry
 from typing import Dict, Any
@@ -118,7 +117,6 @@ class CheckProcessCommand(BaseCommand):
                 msg= f"El proceso {process_name} no está corriendo actualmente",
                 data= {"process_name" : process_name, "is_running" : running}
             )
-
 
 class ExecuteSystemCommand(BaseCommand):
 
