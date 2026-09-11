@@ -1,7 +1,6 @@
 from src.SL.os_engine.base_adapter import BaseAdapter
 from src.SL.app_finder.registry import AppRegistry
 from typing import Dict, Any
-import requests
 import logging
 from src.SL.command_handler.base_command import BaseCommand, CommandResult
 

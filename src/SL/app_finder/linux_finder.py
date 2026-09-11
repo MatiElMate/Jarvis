@@ -14,7 +14,12 @@ class LinuxAppFinder(BaseAppFinder):
         self._desktop_paths = [
             Path("/usr/share/applications"),
             Path("/usr/local/share/applications"),
-            self._home / ".local/share/applications"  # Usamos pathlib para unir rutas
+            self._home / ".local/share/applications",
+            # Rutas de Snap
+            Path("/var/lib/snapd/desktop/applications"),
+            # Rutas de Flatpak
+            Path("/var/lib/flatpak/exports/share/applications"),
+            self._home / ".local/share/flatpak/exports/share/applications"
         ]
 
     @property

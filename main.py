@@ -5,12 +5,12 @@ from typing import Dict, Any
 from src.SL.os_engine.factory import get_adapter
 
 from src.SL.app_finder.factory import get_finder
-
 from src.SL.app_finder.registry import AppRegistry
 
+from src.SL.command_handler.base_command import CommandResult
 
 from src.SL.command_handler.dispatcher import CommandDispatcher
-from src.SL.command_handler.system_command import *
+from src.SL.command_handler.system_command import OpenAppCommand, OpenUrlCommand, ExecuteSystemCommand, CheckProcessCommand
 
 from src.NLU.intent_recognizer.factory import get_intent_recognizer
 from src.core.assistant import AssistantCore
@@ -20,7 +20,7 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     handlers=[
         logging.FileHandler("jarvis.log", encoding="utf-8"),
-        logging.StreamHandler(sys.stdout),
+        logging.StreamHandler(sys.stderr),
     ],
 )
 logger = logging.getLogger("JarvisCLI")
@@ -31,10 +31,10 @@ def init_asistant() -> AssistantCore:
     """
     logger.info("[Main] Inicializando componentes de infraestructura...")
     
-    app_locator = get_finder()
+    app_registry = AppRegistry()
     os_adapter = get_adapter()
 
-    dispatcher = CommandDispatcher(app_locator,os_adapter)
+    dispatcher = CommandDispatcher(app_registry,os_adapter)
     dispatcher._default_command_register()
 
     recognizer = get_intent_recognizer()
@@ -49,27 +49,14 @@ def print_response(response: Dict[str,Any]) -> None:
     """
         Formatea la respuesta generada por AssistantCore en la consola.
     """
-
-    if isinstance(response, bool):
-        if response:
-            print("\n[ÉXITO]: Operación realizada correctamente.\n")
+    if response[1]:
+        if response.get("output") is not None:
+            print(f"\n [Correcto!] {response["msg"]}, la salidida fue; \n {response.get("output")}")
         else:
-            print("\n[ERROR]: No se pudo completar la operación.\n")
-        return
-
-    if isinstance(response, Dict):
-        succes = response.get("succes", False)
-        msg = response.get("msg", "")
-        action = response.get("action", "unknown")
-
-        if(succes[1]):
-            print(f"[Éxito] ('{action[1]}') : {msg[1]}")
-        else:
-            print(f"[Error] ('{action[1]}') : {msg[1]}")
-        
-        return
-
-    print(f"\n [RESULTADO]: {response}\n")
+            print(f"\n [Correcto!] {response['msg']}")
+            logger.info(f"[Main] abierto con {response['action']} desde {response['data']}")
+    else:
+        print(f"\n [Error] {response.msg}")
 
 
 def main() -> None:

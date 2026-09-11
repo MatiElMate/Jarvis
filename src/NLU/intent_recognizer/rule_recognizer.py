@@ -16,12 +16,12 @@ class RuleIntentRecognizer(BaseIntentRecognizer):
 
         self.patterns: List[Tuple[Pattern[str],str,str]] = [
             (
-                re.compile(r"(?:abrir url|abrir sitio|navegar a|entrar a|entra a|entrar en|entra|entrar|navegame|ir a |navega)\s(.+)",re.IGNORECASE),
+                re.compile(r"(?:abrir url|abrir sitio|navegar a|entrar a|entra a|entrar en|entra|entrar|navegame|ir a |navega a|navega)\s(.+)",re.IGNORECASE),
                 "open_url",
                 "url"
             ),
             (
-                re.compile(r"(?:comprobar proceso|comprobar|revisar proceso|revisar|ver proceso|esta corriendo|ver estado de|fijate|ver)\s(.+)",re.IGNORECASE),
+                re.compile(r"(?:comprobar proceso|comprobar|revisar proceso|revisar|ver proceso|esta corriendo|ver estado de|fijate|ver|chequea|verifica)\s(.+)",re.IGNORECASE),
                 "check_process",
                 "process_name"
             ),

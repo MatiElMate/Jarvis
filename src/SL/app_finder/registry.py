@@ -8,8 +8,9 @@ class AppRegistry():
     def __init__(self):
         self.apps: dict[str, str] = {}
         self.alias: dict[str, str] = {
-            "browser": "google chrome",
-            "navegador": "google chrome",
+            "browser": "firefox",
+            "navegador": "firefox",
+            "bucador" : "firefox",
             "musica": "spotify",
             "codigo": "visual studio code",
         }
