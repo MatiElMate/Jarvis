@@ -49,14 +49,15 @@ def print_response(response: Dict[str,Any]) -> None:
     """
         Formatea la respuesta generada por AssistantCore en la consola.
     """
-    if response[1]:
-        if response.get("output") is not None:
-            print(f"\n [Correcto!] {response["msg"]}, la salidida fue; \n {response.get("output")}")
+    if response.get("success"):
+        data = response.get("data") or {}
+        if data.get("output") is not None:
+            print(f"\n [Correcto!] {response.get('msg')}, la salidida fue: \n {data.get('output')}")
         else:
-            print(f"\n [Correcto!] {response['msg']}")
-            logger.info(f"[Main] abierto con {response['action']} desde {response['data']}")
+            print(f"\n [Correcto!] {response.get('msg')}")
+            logger.info(f"[Main] abierto con {response.get('action')} desde {response.get('data')}")
     else:
-        print(f"\n [Error] {response.msg}")
+        print(f"\n [Error] {response.get('msg')}")
 
 
 def main() -> None:
