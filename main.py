@@ -1,3 +1,4 @@
+from src.NLU.ollama_recognizer import OllamaRecognizer
 import logging
 import sys
 from typing import Dict, Any
@@ -37,7 +38,7 @@ def init_asistant() -> AssistantCore:
     dispatcher = CommandDispatcher(app_registry,os_adapter)
     dispatcher._default_command_register()
 
-    recognizer = get_intent_recognizer()
+    recognizer = OllamaRecognizer(modelo_ollama="llama3.2:1b")
 
     return AssistantCore(
         dispatcher= dispatcher,

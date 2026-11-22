@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BaseCommand",
+  "description": "Clase base que define los contratos que va a seguir cada comando",
+  "type": "object",
+  "x-module": "src.SL.command_handler.base_command",
+  "x-kind": "abstract_base_class",
+  "x-methods": {
+    "execute": {
+      "description": "Ejecuta un comando ",
+      "x-abstract": false,
+      "parameters": {
+        "dictionary": {
+          "type": "dict",
+          "description": ""
+        }
+      },
+      "returns": {
+        "type": "Any",
+        "description": ""
+      }
+    }
+  }
+}

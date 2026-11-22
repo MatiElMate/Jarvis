@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+tests/
+.pytest_cache/
+
+# Entornos virtuales (opcional pero recomendado)
+.venv/
+env/
+venv/

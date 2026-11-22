@@ -1,3 +1,4 @@
+from src.SL.command_handler.chat_command import ChatCommand
 import logging
 from typing import Any, Dict, Optional
 
@@ -32,6 +33,7 @@ class CommandDispatcher():
         self.register_command("open_url", OpenUrlCommand(self.os_adapter))
         self.register_command("check_process", CheckProcessCommand(self.os_adapter))
         self.register_command("execute_command", ExecuteSystemCommand(self.os_adapter))
+        self.register_command("chat", ChatCommand())
 
     
     def register_command(self, action:str, command: BaseCommand):

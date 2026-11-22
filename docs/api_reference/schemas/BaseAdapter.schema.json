@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BaseAdapter",
+  "description": "Clase Base Abstracta que define el contrato estricto para los adaptadores de\nSistema Operativo (Windows, Linux, etc.).\n\nCualquier adaptador concreto DEBE implementar todos los métodos marcados\ncon @abstractmethod.",
+  "type": "object",
+  "x-module": "src.SL.os_engine.base_adapter",
+  "x-kind": "abstract_base_class",
+  "x-methods": {
+    "execute_system_command": {
+      "description": "Ejecuta un comando arbitrario de consola y captura la respuesta.\n\n:param command: Comando de consola (Bash/CMD/PowerShell).\n:return: Tupla con (Éxito: bool, Salida/Error: str).",
+      "x-abstract": true,
+      "parameters": {
+        "command": {
+          "type": "str",
+          "description": "Comando de consola (Bash/CMD/PowerShell)."
+        }
+      },
+      "returns": {
+        "type": "tuple[bool, str]",
+        "description": "Tupla con (Éxito: bool, Salida/Error: str)."
+      }
+    },
+    "is_process_running": {
+      "description": "Consulta si un proceso se encuentra activo en la lista de tareas del SO.\n\n:param process_name: Nombre o fragmento del ejecutable a buscar.\n:return: True si el proceso está corriendo, False en caso contrario.",
+      "x-abstract": true,
+      "parameters": {
+        "process_name": {
+          "type": "str",
+          "description": "Nombre o fragmento del ejecutable a buscar."
+        }
+      },
+      "returns": {
+        "type": "bool",
+        "description": "True si el proceso está corriendo, False en caso contrario."
+      }
+    },
+    "open_application": {
+      "description": "Abre una aplicación de forma asíncrona (no bloqueante).\n\n:param app_path_or_cmd: Ruta ejecutable o comando de sistema.\n:return: True si se inició correctamente, False si falló.",
+      "x-abstract": true,
+      "parameters": {
+        "app_path_or_cmd": {
+          "type": "str",
+          "description": "Ruta ejecutable o comando de sistema."
+        }
+      },
+      "returns": {
+        "type": "bool",
+        "description": "True si se inició correctamente, False si falló."
+      }
+    },
+    "open_url": {
+      "description": "Abre un enlace web en el navegador predeterminado del sistema.\n\n:param url: Dirección web completa (ej. \"https://google.com\").\n:return: True si se envió la orden de apertura, False si falló.",
+      "x-abstract": true,
+      "parameters": {
+        "url": {
+          "type": "str",
+          "description": "Dirección web completa (ej. \"https://google.com\")."
+        }
+      },
+      "returns": {
+        "type": "bool",
+        "description": "True si se envió la orden de apertura, False si falló."
+      }
+    }
+  }
+}

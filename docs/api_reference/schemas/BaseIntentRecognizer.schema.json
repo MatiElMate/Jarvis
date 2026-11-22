@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BaseIntentRecognizer",
+  "description": "Sin documentación.",
+  "type": "object",
+  "x-module": "src.NLU.intent_recognizer.base_recognizer",
+  "x-kind": "abstract_base_class",
+  "x-methods": {
+    "parse": {
+      "description": "Analiza el texto del usuario y extrae la intención",
+      "x-abstract": true,
+      "parameters": {
+        "user_text": {
+          "type": "str",
+          "description": ""
+        }
+      },
+      "returns": {
+        "type": "IntentResult",
+        "description": ""
+      }
+    }
+  }
+}

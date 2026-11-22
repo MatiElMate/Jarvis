@@ -1,0 +1,911 @@
+2026-09-10 17:14:09,093 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:14:09,093 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:14:09,095 [CRITICAL] JarvisCLI: [Main] Error al intentar iniciar el asistente: CommandDispatcher.__init__() missing 2 required positional arguments: 'app_registry' and 'os_adapter'
+2026-09-10 17:16:44,724 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:16:44,725 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:16:44,726 [CRITICAL] JarvisCLI: [Main] Error al intentar iniciar el asistente: CommandDispatcher.__init__() missing 2 required positional arguments: 'app_registry' and 'os_adapter'
+2026-09-10 17:20:24,307 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:20:24,307 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:20:24,307 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:20:24,309 [CRITICAL] JarvisCLI: [Main] Error al intentar iniciar el asistente: CommandDispatcher.__init__() missing 2 required positional arguments: 'app_registry' and 'os_adapter'
+2026-09-10 17:22:21,872 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:22:21,872 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:22:21,872 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:22:21,874 [CRITICAL] JarvisCLI: [Main] Error al intentar iniciar el asistente: CommandDispatcher.__init__() missing 2 required positional arguments: 'app_registry' and 'os_adapter'
+2026-09-10 17:22:36,252 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:22:36,253 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:22:36,253 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:22:36,254 [CRITICAL] JarvisCLI: [Main] Error al intentar iniciar el asistente: CommandDispatcher.__init__() missing 2 required positional arguments: 'app_registry' and 'os_adapter'
+2026-09-10 17:23:00,562 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:23:00,562 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:23:00,562 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:23:00,565 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:23:33,762 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:23:33,762 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:23:33,762 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:23:33,765 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:23:37,843 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: clear
+2026-09-10 17:23:37,843 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'clear'
+2026-09-10 17:23:37,843 [WARNING] src.core.assistant: No se pudo interpretar la accion: clear
+2026-09-10 17:23:37,843 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:23:43,156 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:23:43,156 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:23:43,156 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:23:43,159 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:23:49,801 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola jarvis
+2026-09-10 17:23:49,802 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'hola jarvis'
+2026-09-10 17:23:49,802 [WARNING] src.core.assistant: No se pudo interpretar la accion: hola jarvis
+2026-09-10 17:23:49,802 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:24:28,977 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a https://www.youtube.com/
+2026-09-10 17:24:28,977 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navega a https://www.youtube.com/'
+2026-09-10 17:24:28,977 [WARNING] src.core.assistant: No se pudo interpretar la accion: navega a https://www.youtube.com/
+2026-09-10 17:24:28,977 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:24:55,178 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:24:55,178 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:24:55,178 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:24:55,180 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:25:05,535 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegar a https://www.youtube.com/
+2026-09-10 17:25:05,535 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='https://www.youtube.com/'
+2026-09-10 17:25:05,541 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:25:05,543 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com/
+2026-09-10 17:25:05,543 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:28:44,758 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:28:44,758 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:28:44,759 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:28:44,761 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:28:51,255 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a youtube
+2026-09-10 17:28:51,255 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navega a youtube'
+2026-09-10 17:28:51,255 [WARNING] src.core.assistant: No se pudo interpretar la accion: navega a youtube
+2026-09-10 17:28:51,255 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:29:09,124 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a https://www.youtube.com/
+2026-09-10 17:29:09,125 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navega a https://www.youtube.com/'
+2026-09-10 17:29:09,125 [WARNING] src.core.assistant: No se pudo interpretar la accion: navega a https://www.youtube.com/
+2026-09-10 17:29:09,125 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:29:24,724 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com/
+2026-09-10 17:29:24,724 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navega a www.youtube.com/'
+2026-09-10 17:29:24,724 [WARNING] src.core.assistant: No se pudo interpretar la accion: navega a www.youtube.com/
+2026-09-10 17:29:24,724 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:29:40,115 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegar a www.youtube.com
+2026-09-10 17:29:40,115 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.youtube.com'
+2026-09-10 17:29:40,115 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:29:40,116 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com
+2026-09-10 17:29:40,116 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:29:54,289 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com/
+2026-09-10 17:29:54,289 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navega a www.youtube.com/'
+2026-09-10 17:29:54,289 [WARNING] src.core.assistant: No se pudo interpretar la accion: navega a www.youtube.com/
+2026-09-10 17:29:54,290 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:30:03,517 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com
+2026-09-10 17:30:03,517 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navega a www.youtube.com'
+2026-09-10 17:30:03,517 [WARNING] src.core.assistant: No se pudo interpretar la accion: navega a www.youtube.com
+2026-09-10 17:30:03,517 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:30:40,710 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: slair
+2026-09-10 17:30:40,710 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'slair'
+2026-09-10 17:30:40,710 [WARNING] src.core.assistant: No se pudo interpretar la accion: slair
+2026-09-10 17:30:40,710 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:30:46,058 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:30:46,059 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:30:46,059 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:30:46,061 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:30:49,727 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com
+2026-09-10 17:30:49,727 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com'
+2026-09-10 17:30:49,727 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:30:49,728 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com
+2026-09-10 17:30:49,728 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:31:04,051 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com/
+2026-09-10 17:31:04,051 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com/'
+2026-09-10 17:31:04,051 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:31:04,052 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com/
+2026-09-10 17:31:04,052 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:31:12,197 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com
+2026-09-10 17:31:12,197 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com'
+2026-09-10 17:31:12,197 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:31:12,198 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com
+2026-09-10 17:31:12,198 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:31:23,410 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegar a www.youtube.com
+2026-09-10 17:31:23,410 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.youtube.com'
+2026-09-10 17:31:23,411 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:31:23,411 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com
+2026-09-10 17:31:23,411 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:32:09,869 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ¡¡Entra a www.wikipedia.org!!
+2026-09-10 17:32:09,870 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.wikipedia.org'
+2026-09-10 17:32:09,870 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:32:09,870 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.wikipedia.org
+2026-09-10 17:32:09,871 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:32:59,449 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola jarvis, necesito entrar a ¡¡Entra a
+2026-09-10 17:32:59,449 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='Entra a'
+2026-09-10 17:32:59,449 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:32:59,450 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://Entra a
+2026-09-10 17:32:59,450 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:33:15,988 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola jarvis, necesito ¡¡Entra a www.wikipedia.org!!
+2026-09-10 17:33:15,988 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.wikipedia.org'
+2026-09-10 17:33:15,989 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:33:15,989 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.wikipedia.org
+2026-09-10 17:33:15,989 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'bool' object is not subscriptable
+2026-09-10 17:34:31,156 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:34:31,157 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:34:31,157 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:34:31,159 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:34:40,437 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre visual studio code
+2026-09-10 17:34:40,438 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='visual studio code'
+2026-09-10 17:34:40,438 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:34:40,438 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'LinuxAppFinder' object has no attribute 'get_app_path'
+2026-09-10 17:34:50,035 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre code
+2026-09-10 17:34:50,035 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='code'
+2026-09-10 17:34:50,035 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:34:50,035 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'LinuxAppFinder' object has no attribute 'get_app_path'
+2026-09-10 17:43:01,719 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:43:01,720 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:43:01,720 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:43:01,722 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:43:16,757 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com
+2026-09-10 17:43:16,758 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com'
+2026-09-10 17:43:16,758 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:43:16,759 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com
+2026-09-10 17:43:40,438 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com
+2026-09-10 17:43:40,438 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com'
+2026-09-10 17:43:40,438 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:43:40,439 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com
+2026-09-10 17:43:45,105 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: www.youtube.com/
+2026-09-10 17:43:45,105 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'www.youtube.com/'
+2026-09-10 17:43:45,105 [WARNING] src.core.assistant: No se pudo interpretar la accion: www.youtube.com/
+2026-09-10 17:43:49,137 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com/
+2026-09-10 17:43:49,138 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com/'
+2026-09-10 17:43:49,138 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:43:49,138 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com/
+2026-09-10 17:43:59,701 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a https://www.youtube.com/
+2026-09-10 17:43:59,702 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a https://www.youtube.com/'
+2026-09-10 17:43:59,702 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:43:59,703 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a https://www.youtube.com/
+2026-09-10 17:44:32,461 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: clear
+2026-09-10 17:44:32,462 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'clear'
+2026-09-10 17:44:32,462 [WARNING] src.core.assistant: No se pudo interpretar la accion: clear
+2026-09-10 17:45:23,420 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:45:23,424 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:45:23,424 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:45:23,428 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:45:34,739 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com
+2026-09-10 17:45:34,740 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com'
+2026-09-10 17:45:34,740 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:45:34,741 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com
+2026-09-10 17:46:05,795 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega www.youtube.com
+2026-09-10 17:46:05,795 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.youtube.com'
+2026-09-10 17:46:05,795 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:46:05,796 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com
+2026-09-10 17:46:18,680 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.youtube.com
+2026-09-10 17:46:18,680 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com'
+2026-09-10 17:46:18,680 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:46:18,681 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com
+2026-09-10 17:47:00,322 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:47:00,325 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:47:00,325 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:47:00,329 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:47:04,580 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre youtube
+2026-09-10 17:47:04,580 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='youtube'
+2026-09-10 17:47:04,581 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:47:04,581 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'LinuxAppFinder' object has no attribute 'get_app_path'
+2026-09-10 17:47:16,725 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: entra a youtube
+2026-09-10 17:47:16,726 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='youtube'
+2026-09-10 17:47:16,726 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:47:16,727 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://youtube
+2026-09-10 17:48:02,849 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir code
+2026-09-10 17:48:02,849 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='code'
+2026-09-10 17:48:02,849 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:48:02,850 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'LinuxAppFinder' object has no attribute 'get_app_path'
+2026-09-10 17:48:19,295 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir visual studio code
+2026-09-10 17:48:19,295 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='visual studio code'
+2026-09-10 17:48:19,295 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:48:19,295 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'LinuxAppFinder' object has no attribute 'get_app_path'
+2026-09-10 17:48:32,177 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-10 17:48:32,178 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-10 17:48:32,178 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:48:32,178 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'LinuxAppFinder' object has no attribute 'get_app_path'
+2026-09-10 17:49:52,917 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: entra a www.youtube.com
+2026-09-10 17:49:52,918 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.youtube.com'
+2026-09-10 17:49:52,918 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:49:52,919 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com
+2026-09-10 17:50:50,468 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:50:50,472 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:50:50,472 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:50:50,475 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:51:06,733 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: entra a www.youtube.com
+2026-09-10 17:51:06,734 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.youtube.com'
+2026-09-10 17:51:06,734 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:51:06,735 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com
+2026-09-10 17:52:55,367 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:52:55,370 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:52:55,371 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:52:55,374 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:53:14,426 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.wikipedia.org
+2026-09-10 17:53:14,426 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.wikipedia.org'
+2026-09-10 17:53:14,426 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:53:14,427 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.wikipedia.org
+2026-09-10 17:53:24,000 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: clear
+2026-09-10 17:53:24,000 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'clear'
+2026-09-10 17:53:24,000 [WARNING] src.core.assistant: No se pudo interpretar la accion: clear
+2026-09-10 17:54:03,042 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:54:03,046 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:54:03,046 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:54:03,050 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:54:21,918 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.wikipedia.org
+2026-09-10 17:54:21,918 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.wikipedia.org'
+2026-09-10 17:54:21,919 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 17:54:21,919 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.wikipedia.org
+2026-09-10 17:57:42,441 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 17:57:42,442 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 17:57:42,445 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 17:57:44,081 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre code
+2026-09-10 17:57:44,081 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='code'
+2026-09-10 17:57:44,082 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:57:44,088 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 17:57:44,112 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 65 aplicaciones en Linux
+2026-09-10 17:57:44,112 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'code' -> 'visual studio code'
+2026-09-10 17:57:44,114 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación code
+2026-09-10 17:57:53,996 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre visual studio
+2026-09-10 17:57:53,996 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='visual studio'
+2026-09-10 17:57:53,996 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:57:53,997 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'visual studio' -> 'visual studio code'
+2026-09-10 17:57:53,997 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación visual studio
+2026-09-10 17:58:07,894 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-10 17:58:07,894 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-10 17:58:07,894 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 17:58:07,913 [WARNING] src.SL.app_finder.registry: [AppRegistry] No se encontró ninguna aplicacion para 'firefox'
+2026-09-10 17:58:07,913 [WARNING] src.SL.command_handler.system_command: [SystemCommand] No se encontró la aplicación firefox
+2026-09-10 17:58:23,064 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: revisa firefox
+2026-09-10 17:58:23,064 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'revisa firefox'
+2026-09-10 17:58:23,064 [WARNING] src.core.assistant: No se pudo interpretar la accion: revisa firefox
+2026-09-10 17:58:39,099 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: revisar firefox
+2026-09-10 17:58:39,101 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-10 17:58:39,101 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-10 17:58:39,136 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-10 17:58:46,170 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: revisar lol
+2026-09-10 17:58:46,171 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='lol'
+2026-09-10 17:58:46,171 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-10 17:58:46,197 [INFO] src.SL.command_handler.system_command: [SystemCommand] El proceso lol está actualmente inactivo
+2026-09-10 17:58:52,038 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-10 17:58:52,039 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-10 17:58:52,039 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-10 17:58:52,043 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-10 18:00:37,704 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 18:00:37,704 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 18:00:37,708 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 18:00:40,716 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-10 18:00:40,717 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-10 18:00:40,717 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 18:00:40,726 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 18:00:40,748 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 65 aplicaciones en Linux
+2026-09-10 18:00:40,749 [WARNING] src.SL.app_finder.registry: [AppRegistry] No se encontró ninguna aplicacion para 'firefox'
+2026-09-10 18:00:40,749 [WARNING] src.SL.command_handler.system_command: [SystemCommand] No se encontró la aplicación firefox
+2026-09-10 18:00:49,836 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar firefox
+2026-09-10 18:00:49,836 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='firefox'
+2026-09-10 18:00:49,836 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-10 18:00:50,163 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando firefox
+2026-09-10 18:02:16,410 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 18:02:16,410 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 18:02:16,414 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 18:02:20,096 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-10 18:02:20,096 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-10 18:02:20,096 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 18:02:20,104 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 18:02:20,113 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-10 18:02:20,113 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-10 18:02:46,611 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre the binding of isaac
+2026-09-10 18:02:46,611 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='the binding of isaac'
+2026-09-10 18:02:46,611 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 18:02:46,611 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'the binding of isaac' -> 'the binding of isaac: rebirth'
+2026-09-10 18:02:46,614 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación the binding of isaac
+2026-09-10 18:04:15,172 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre visual studio
+2026-09-10 18:04:15,186 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='visual studio'
+2026-09-10 18:04:15,188 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 18:04:15,191 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'visual studio' -> 'visual studio code'
+2026-09-10 18:04:15,201 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación visual studio
+2026-09-10 18:04:31,122 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegame a www.youtube.com
+2026-09-10 18:04:31,125 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a www.youtube.com'
+2026-09-10 18:04:31,126 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 18:04:31,133 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a www.youtube.com
+2026-09-10 18:04:53,416 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegame www.youtube.com
+2026-09-10 18:04:53,416 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.youtube.com'
+2026-09-10 18:04:53,417 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-10 18:04:53,432 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com
+2026-09-10 18:05:11,116 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrime plants vs zombies
+2026-09-10 18:05:11,116 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='plants vs zombies'
+2026-09-10 18:05:11,116 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 18:05:11,117 [WARNING] src.SL.app_finder.registry: [AppRegistry] No se encontró ninguna aplicacion para 'plants vs zombies'
+2026-09-10 18:05:11,118 [WARNING] src.SL.command_handler.system_command: [SystemCommand] No se encontró la aplicación plants vs zombies
+2026-09-10 18:05:28,206 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrime the binding of isaac
+2026-09-10 18:05:28,223 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='the binding of isaac'
+2026-09-10 18:05:28,223 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 18:05:28,223 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'the binding of isaac' -> 'the binding of isaac: rebirth'
+2026-09-10 18:05:28,225 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación the binding of isaac
+2026-09-10 18:07:00,621 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-10 18:07:00,622 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-10 18:07:00,630 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-10 18:07:17,851 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abri the binding of isaac
+2026-09-10 18:07:17,853 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'abri the binding of isaac'
+2026-09-10 18:07:17,853 [WARNING] src.core.assistant: No se pudo interpretar la accion: abri the binding of isaac
+2026-09-10 18:07:42,361 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrime the binding of isaac
+2026-09-10 18:07:42,361 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='the binding of isaac'
+2026-09-10 18:07:42,362 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-10 18:07:42,371 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-10 18:07:42,410 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-10 18:07:42,410 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'the binding of isaac' -> 'the binding of isaac: rebirth'
+2026-09-10 18:07:42,412 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación the binding of isaac
+2026-09-11 11:06:51,341 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:06:51,342 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:06:51,351 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:06:56,241 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-11 11:06:56,243 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:06:56,244 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:06:56,256 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:06:56,309 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:06:56,311 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:11:40,453 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:11:40,453 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:11:40,469 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:11:43,806 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-11 11:11:43,807 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:11:43,807 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:11:43,817 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:11:43,832 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:11:43,833 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:11:43,833 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'success'
+2026-09-11 11:28:01,824 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:28:01,824 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:28:01,832 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:28:06,244 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-11 11:28:06,245 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:28:06,245 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:28:06,256 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:28:06,270 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:28:06,271 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:28:06,272 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'success'
+2026-09-11 11:30:02,740 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:30:02,740 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:30:02,747 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:30:05,961 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-11 11:30:05,962 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:30:05,962 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:30:05,972 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:30:05,985 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:30:05,987 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:30:05,987 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/snap/bin/firefox'}
+2026-09-11 11:30:45,247 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: adios
+2026-09-11 11:30:45,247 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'adios'
+2026-09-11 11:30:45,248 [WARNING] src.core.assistant: No se pudo interpretar la accion: adios
+2026-09-11 11:30:45,248 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'msg'
+2026-09-11 11:42:06,755 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:42:06,755 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:42:06,763 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:42:16,004 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-11 11:42:16,004 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:42:16,005 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:42:16,014 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:42:16,028 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:42:16,029 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:42:16,030 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/snap/bin/firefox'}
+2026-09-11 11:42:22,626 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: chequea firefox
+2026-09-11 11:42:22,627 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'chequea firefox'
+2026-09-11 11:42:22,627 [WARNING] src.core.assistant: No se pudo interpretar la accion: chequea firefox
+2026-09-11 11:42:22,627 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'msg'
+2026-09-11 11:42:29,687 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: verifica firefox
+2026-09-11 11:42:29,688 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'verifica firefox'
+2026-09-11 11:42:29,688 [WARNING] src.core.assistant: No se pudo interpretar la accion: verifica firefox
+2026-09-11 11:42:29,688 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'msg'
+2026-09-11 11:43:08,158 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar proceso firefox
+2026-09-11 11:43:08,158 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-11 11:43:08,158 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-11 11:43:08,211 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-11 11:43:08,211 [INFO] JarvisCLI: [Main] abierto con check_process desde {'process_name': 'firefox', 'is_running': True}
+2026-09-11 11:43:19,781 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-11 11:43:19,781 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-11 11:43:19,782 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-11 11:43:19,792 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-11 11:43:19,793 [INFO] JarvisCLI: [Main] abierto con execute_command desde {'command': 'ls', 'output': '=2.0.0\nconfig\ndocs\nenv\nimplementation_plan.md\njarvis.log\nmain.py\nrequirements.txt\nscripts\nsrc\ntests'}
+2026-09-11 11:44:52,018 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:44:52,019 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:44:52,026 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:44:54,058 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-11 11:44:54,059 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-11 11:44:54,059 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-11 11:44:54,064 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-11 11:44:54,064 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'output'
+2026-09-11 11:45:37,916 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:45:37,916 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:45:37,924 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:45:41,412 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-11 11:45:41,412 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-11 11:45:41,413 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-11 11:45:41,417 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-11 11:45:41,417 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'output'
+2026-09-11 11:55:24,445 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:55:24,445 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:55:24,454 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:55:27,941 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-11 11:55:27,942 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:55:27,942 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:55:27,952 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:55:27,965 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:55:27,966 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:55:27,966 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: Type Dict cannot be instantiated; use dict() instead
+2026-09-11 11:57:18,733 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:57:18,733 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:57:18,742 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:57:22,972 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-11 11:57:22,973 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:57:22,973 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:57:22,984 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:57:22,997 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:57:22,999 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:57:22,999 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: Type Dict cannot be instantiated; use dict() instead
+2026-09-11 11:57:55,827 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:57:55,828 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:57:55,836 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:57:57,785 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre firefox
+2026-09-11 11:57:57,787 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-11 11:57:57,787 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 11:57:57,801 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 11:57:57,815 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 11:57:57,816 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-11 11:57:57,816 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: Type Dict cannot be instantiated; use dict() instead
+2026-09-11 11:58:35,722 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 11:58:35,722 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 11:58:35,730 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 11:58:40,008 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: verifica firefox
+2026-09-11 11:58:40,009 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-11 11:58:40,009 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-11 11:58:40,056 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-11 11:58:40,056 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: Type Dict cannot be instantiated; use dict() instead
+2026-09-11 12:10:15,223 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 12:10:15,224 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 12:10:15,232 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 12:10:21,100 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: chequea firefox
+2026-09-11 12:10:21,100 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-11 12:10:21,100 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-11 12:10:21,147 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-11 12:10:21,148 [INFO] JarvisCLI: [Main] abierto con check_process desde {'process_name': 'firefox', 'is_running': True}
+2026-09-11 12:10:51,075 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 12:10:51,076 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 12:10:51,083 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 12:10:55,510 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: chequea firefox
+2026-09-11 12:10:55,510 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-11 12:10:55,511 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-11 12:10:55,557 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-11 12:10:55,557 [INFO] JarvisCLI: [Main] abierto con check_process desde {'process_name': 'firefox', 'is_running': True}
+2026-09-11 12:11:01,596 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecuta ls
+2026-09-11 12:11:01,597 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'ejecuta ls'
+2026-09-11 12:11:01,597 [WARNING] src.core.assistant: No se pudo interpretar la accion: ejecuta ls
+2026-09-11 12:11:06,203 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-11 12:11:06,203 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-11 12:11:06,204 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-11 12:11:06,208 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-11 12:11:16,932 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecuta cd
+2026-09-11 12:11:16,933 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'ejecuta cd'
+2026-09-11 12:11:16,933 [WARNING] src.core.assistant: No se pudo interpretar la accion: ejecuta cd
+2026-09-11 12:11:21,996 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar cd
+2026-09-11 12:11:21,996 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='cd'
+2026-09-11 12:11:21,996 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-11 12:11:21,999 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando cd
+2026-09-11 12:11:29,591 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-11 12:11:29,592 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-11 12:11:29,592 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-11 12:11:29,596 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-11 12:11:40,048 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar git status
+2026-09-11 12:11:40,048 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='git status'
+2026-09-11 12:11:40,049 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-11 12:11:40,062 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando git status
+2026-09-11 12:12:03,413 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 12:12:03,414 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 12:12:03,422 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 12:12:07,326 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre visual
+2026-09-11 12:12:07,327 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='visual'
+2026-09-11 12:12:07,327 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 12:12:07,337 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 12:12:07,350 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 12:12:07,350 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'visual' -> 'visual studio code'
+2026-09-11 12:12:07,377 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación visual
+2026-09-11 12:12:07,377 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/usr/share/code/code'}
+2026-09-11 12:12:18,482 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre antigravity
+2026-09-11 12:12:18,482 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='antigravity'
+2026-09-11 12:12:18,482 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 12:12:18,485 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación antigravity
+2026-09-11 12:12:18,485 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/usr/share/antigravity/antigravity'}
+2026-09-11 12:13:01,438 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegar www.sudoku.com/es/killer/experto
+2026-09-11 12:13:01,441 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navegar www.sudoku.com/es/killer/experto'
+2026-09-11 12:13:01,442 [WARNING] src.core.assistant: No se pudo interpretar la accion: navegar www.sudoku.com/es/killer/experto
+2026-09-11 12:14:08,788 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-11 12:14:08,788 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-11 12:14:08,795 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-11 12:14:14,770 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a
+2026-09-11 12:14:14,771 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='a'
+2026-09-11 12:14:14,771 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-11 12:14:14,774 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://a
+2026-09-11 12:14:14,774 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-11 12:14:59,488 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navega a www.sudoku.com/es/killer/experto
+2026-09-11 12:14:59,488 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.sudoku.com/es/killer/experto'
+2026-09-11 12:14:59,488 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-11 12:14:59,490 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.sudoku.com/es/killer/experto
+2026-09-11 12:14:59,490 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-11 12:15:26,457 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola jarvis como etas
+2026-09-11 12:15:26,457 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'hola jarvis como etas'
+2026-09-11 12:15:26,457 [WARNING] src.core.assistant: No se pudo interpretar la accion: hola jarvis como etas
+2026-09-11 12:15:26,457 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-11 12:15:56,855 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abre the binding of isaac
+2026-09-11 12:15:56,855 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='the binding of isaac'
+2026-09-11 12:15:56,861 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-11 12:15:56,873 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-11 12:15:56,915 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-11 12:15:56,915 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'the binding of isaac' -> 'the binding of isaac: rebirth'
+2026-09-11 12:15:56,919 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación the binding of isaac
+2026-09-11 12:15:56,919 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:53:11,061 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 21:53:11,062 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 21:53:11,070 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 21:53:32,104 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir visual
+2026-09-15 21:53:32,106 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='visual'
+2026-09-15 21:53:32,107 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-15 21:53:32,118 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-15 21:53:32,163 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-15 21:53:32,163 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'visual' -> 'visual studio code'
+2026-09-15 21:53:32,166 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación visual
+2026-09-15 21:53:32,166 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:53:57,885 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegar www.youtube.com
+2026-09-15 21:53:57,888 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'navegar www.youtube.com'
+2026-09-15 21:53:57,889 [WARNING] src.core.assistant: No se pudo interpretar la accion: navegar www.youtube.com
+2026-09-15 21:53:57,889 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:54:15,239 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegar a www.youtube.com
+2026-09-15 21:54:15,239 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.youtube.com'
+2026-09-15 21:54:15,239 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-15 21:54:15,243 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.youtube.com
+2026-09-15 21:54:15,243 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:54:40,575 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir the binding of isaac
+2026-09-15 21:54:40,575 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='the binding of isaac'
+2026-09-15 21:54:40,575 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-15 21:54:40,578 [INFO] src.SL.app_finder.registry: [AppRegistry] Coincidencia parcial: 'the binding of isaac' -> 'the binding of isaac: rebirth'
+2026-09-15 21:54:40,584 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación the binding of isaac
+2026-09-15 21:54:40,584 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:55:16,116 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: checkear the binding of isaac
+2026-09-15 21:55:16,135 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'checkear the binding of isaac'
+2026-09-15 21:55:16,137 [WARNING] src.core.assistant: No se pudo interpretar la accion: checkear the binding of isaac
+2026-09-15 21:55:16,139 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:55:48,218 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar firefox
+2026-09-15 21:55:48,219 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-15 21:55:48,219 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-15 21:55:48,271 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-15 21:55:48,271 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:56:15,314 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-15 21:56:15,315 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-15 21:56:15,315 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-15 21:56:15,320 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-15 21:56:15,320 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:56:49,689 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 21:56:49,689 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 21:56:49,696 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 21:57:09,337 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: mandalo a lautaro a lavar los platos
+2026-09-15 21:57:09,337 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'mandalo a lautaro a lavar los platos'
+2026-09-15 21:57:09,338 [WARNING] src.core.assistant: No se pudo interpretar la accion: mandalo a lautaro a lavar los platos
+2026-09-15 21:57:09,338 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:58:21,800 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 21:58:21,801 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 21:58:21,807 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 21:58:33,696 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-15 21:58:33,697 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-15 21:58:33,698 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-15 21:58:33,700 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-15 21:58:33,762 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-15 21:58:33,767 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-15 21:58:33,767 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:58:52,669 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 21:58:52,670 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 21:58:52,676 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 21:59:01,198 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-15 21:59:01,200 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-15 21:59:01,200 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-15 21:59:01,202 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-15 21:59:01,246 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-15 21:59:01,251 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-15 21:59:01,251 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 21:59:19,647 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 21:59:19,648 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 21:59:19,654 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 21:59:39,270 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-15 21:59:40,626 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-15 21:59:54,083 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-15 21:59:54,088 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-15 21:59:54,141 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-15 21:59:54,146 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-15 22:00:23,527 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 22:00:52,990 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: verificar firefox
+2026-09-15 22:00:52,990 [WARNING] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] No se pudo clasificar la intención para: 'verificar firefox'
+2026-09-15 22:00:52,991 [WARNING] src.core.assistant: No se pudo interpretar la accion: verificar firefox
+2026-09-15 22:01:01,591 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 22:01:37,059 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar firefox
+2026-09-15 22:01:37,060 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-15 22:01:37,061 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-15 22:01:37,128 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-15 22:01:44,620 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 22:01:56,044 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar firefox
+2026-09-15 22:01:56,045 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-15 22:01:56,045 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-15 22:01:56,097 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-15 22:02:07,942 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 1
+2026-09-15 22:04:56,223 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 22:04:56,224 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 22:04:56,235 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 22:05:03,398 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar firefox
+2026-09-15 22:05:03,399 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-15 22:05:03,399 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-15 22:05:03,457 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-15 22:05:03,457 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'et'
+2026-09-15 22:05:27,901 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 22:05:27,902 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 22:05:27,908 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 22:05:39,946 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar firefox
+2026-09-15 22:05:39,948 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-15 22:05:39,948 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-15 22:05:40,006 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-15 22:05:59,085 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 22:05:59,087 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 22:05:59,092 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 22:06:06,660 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar firefox
+2026-09-15 22:06:06,662 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-15 22:06:06,662 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-15 22:06:06,719 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se encontró el proceso firefox
+2026-09-15 22:06:06,720 [INFO] JarvisCLI: [Main] abierto con check_process desde {'process_name': 'firefox', 'is_running': True}
+2026-09-15 22:06:30,338 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 22:06:30,338 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 22:06:30,346 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 22:06:32,521 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-15 22:06:32,522 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-15 22:06:32,522 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-15 22:06:32,533 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-15 22:06:32,574 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-15 22:06:32,576 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-15 22:06:32,576 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/snap/bin/firefox'}
+2026-09-15 22:06:44,995 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: navegar a www.wikipedia.org
+2026-09-15 22:06:44,996 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_url' -> url='www.wikipedia.org'
+2026-09-15 22:06:44,996 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_url
+2026-09-15 22:06:44,999 [INFO] src.SL.command_handler.system_command: [SystemCommand] Éxito al abrir la URL https://www.wikipedia.org
+2026-09-15 22:06:44,999 [INFO] JarvisCLI: [Main] abierto con open_url desde {'url': 'https://www.wikipedia.org'}
+2026-09-15 22:07:00,771 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: comprobar firefox
+2026-09-15 22:07:00,771 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'check_process' -> process_name='firefox'
+2026-09-15 22:07:00,771 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: check_process
+2026-09-15 22:07:00,826 [INFO] src.SL.command_handler.system_command: [SystemCommand] El proceso firefox está actualmente inactivo
+2026-09-15 22:07:00,826 [INFO] JarvisCLI: [Main] abierto con check_process desde {'process_name': 'firefox', 'is_running': False}
+2026-09-15 22:07:05,802 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-15 22:07:05,803 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-15 22:07:05,803 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-15 22:07:05,810 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-15 22:07:05,811 [INFO] JarvisCLI: [Main] abierto con execute_command desde {'command': 'ls', 'output': '=2.0.0\nconfig\ndocs\nenv\nimplementation_plan.md\njarvis.log\nmain.py\nrequirements.txt\nscripts\nsrc\ntests'}
+2026-09-15 22:07:40,740 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 22:07:40,741 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 22:07:40,746 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 22:07:47,140 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-15 22:07:47,143 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-15 22:07:47,143 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-15 22:07:47,152 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-15 22:12:18,374 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-15 22:12:18,375 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-15 22:12:18,383 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-15 22:12:22,866 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: ejecutar ls
+2026-09-15 22:12:22,867 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'execute_command' -> command='ls'
+2026-09-15 22:12:22,867 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: execute_command
+2026-09-15 22:12:22,872 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se ejecutó el comando ls
+2026-09-16 20:25:51,700 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-09-16 20:25:51,701 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-09-16 20:25:51,709 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-09-16 20:26:01,410 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-09-16 20:26:01,413 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-09-16 20:26:01,413 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-09-16 20:26:01,423 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-09-16 20:26:01,436 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-09-16 20:26:01,437 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-09-16 20:26:01,437 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/snap/bin/firefox'}
+2026-11-14 17:55:44,256 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 17:55:44,257 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 17:55:44,265 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 17:55:58,623 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-11-14 17:55:58,626 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='firefox'
+2026-11-14 17:55:58,626 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-11-14 17:55:58,636 [INFO] src.SL.app_finder.factory: Cargando el buscador de apps de Linux...
+2026-11-14 17:55:58,675 [INFO] src.SL.app_finder.linux_finder: [LinuxFinder] Se encontraron 70 aplicaciones en Linux
+2026-11-14 17:55:58,677 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación firefox
+2026-11-14 17:55:58,677 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/snap/bin/firefox'}
+2026-11-14 17:56:37,793 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir discord
+2026-11-14 17:56:37,796 [INFO] src.NLU.intent_recognizer.rule_recognizer: [RuleIntentRecognizer] Intención detectada: 'open_app' -> app_name='discord'
+2026-11-14 17:56:37,796 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-11-14 17:56:37,799 [INFO] src.SL.command_handler.system_command: [SystemCommand] Se inició la aplicación discord
+2026-11-14 17:56:37,800 [INFO] JarvisCLI: [Main] abierto con open_app desde {'path': '/usr/bin/discord'}
+2026-11-14 18:27:22,304 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:27:22,304 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:27:22,313 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:32:50,461 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:32:50,462 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:32:50,463 [CRITICAL] JarvisCLI: [Main] Error al intentar iniciar el asistente: Can't instantiate abstract class OllamaRecognizer without an implementation for abstract method 'parse'
+2026-11-14 18:34:00,901 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:34:00,902 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:34:00,903 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:34:04,819 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:34:04,822 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:34:11,957 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: chau
+2026-11-14 18:34:11,958 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:41:59,743 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:41:59,743 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:41:59,744 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:42:00,961 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:42:00,962 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:42:50,790 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:42:50,790 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:42:50,793 [CRITICAL] JarvisCLI: [Main] Error al intentar iniciar el asistente: Can't instantiate abstract class OllamaRecognizer without an implementation for abstract method 'parse'
+2026-11-14 18:43:22,310 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:43:22,311 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:43:22,314 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:43:24,711 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: a
+2026-11-14 18:43:24,748 [ERROR] src.NLU.ollama_recognizer: [OllamaRecognizer] Error de conexión con Ollama en http://localhost:11434/api/generate: <urlopen error [Errno 111] Connection refused>
+2026-11-14 18:43:24,748 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:43:26,542 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:43:26,543 [ERROR] src.NLU.ollama_recognizer: [OllamaRecognizer] Error de conexión con Ollama en http://localhost:11434/api/generate: <urlopen error [Errno 111] Connection refused>
+2026-11-14 18:43:26,543 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:43:55,912 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:43:55,912 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:43:55,913 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:43:57,414 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:43:57,415 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:47:53,515 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:47:53,515 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:47:53,516 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:47:55,894 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:47:55,895 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:48:25,024 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:48:25,024 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:48:25,025 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:48:27,694 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:48:27,695 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:52:59,989 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:52:59,989 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:52:59,990 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:53:01,979 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:53:01,980 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'action_name'
+2026-11-14 18:55:47,907 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 18:55:47,907 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 18:55:47,908 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 18:55:48,736 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 18:55:48,736 [WARNING] src.core.assistant: No se pudo interpretar la accion: hola
+2026-11-14 19:00:36,012 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:00:36,012 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:00:36,013 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:00:36,957 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:00:36,962 [ERROR] src.NLU.ollama_recognizer: [OllamaRecognizer] Error procesando la intención: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2026-11-14 19:00:36,962 [WARNING] src.core.assistant: No se pudo interpretar la accion: hola
+2026-11-14 19:06:35,203 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:06:35,204 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:06:35,205 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:06:36,455 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:06:52,729 [ERROR] src.NLU.ollama_recognizer: [OllamaRecognizer] Error procesando la intención: Server disconnected without sending a response.
+2026-11-14 19:06:52,735 [WARNING] src.core.assistant: No se pudo interpretar la accion: hola
+2026-11-14 19:08:59,089 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:08:59,089 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:08:59,091 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:09:00,490 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:09:12,378 [ERROR] src.NLU.ollama_recognizer: [OllamaRecognizer] Error procesando la intención: Server disconnected without sending a response.
+2026-11-14 19:09:12,384 [WARNING] src.core.assistant: No se pudo interpretar la accion: hola
+2026-11-14 19:10:01,330 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:10:01,330 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:10:01,332 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:10:03,005 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:10:15,772 [ERROR] src.NLU.ollama_recognizer: [OllamaRecognizer] Error procesando la intención: Server disconnected without sending a response.
+2026-11-14 19:10:15,782 [WARNING] src.core.assistant: No se pudo interpretar la accion: hola
+2026-11-14 19:10:58,090 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-11-14 19:11:13,630 [ERROR] src.NLU.ollama_recognizer: [OllamaRecognizer] Error procesando la intención: Server disconnected without sending a response.
+2026-11-14 19:11:13,647 [WARNING] src.core.assistant: No se pudo interpretar la accion: abrir firefox
+2026-11-14 19:12:06,177 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:12:06,177 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:12:06,178 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:12:08,558 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:12:14,829 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:12:14,829 [WARNING] src.SL.command_handler.dispatcher: [Dispatcher] Acción no reconocida: chat
+2026-11-14 19:13:54,641 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:13:54,641 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:13:54,643 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:13:55,656 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:13:58,154 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:13:58,154 [WARNING] src.SL.command_handler.dispatcher: [Dispatcher] Acción no reconocida: saludo
+2026-11-14 19:16:42,288 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:16:42,288 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:16:42,289 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:16:43,844 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:16:46,358 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:16:46,360 [WARNING] src.SL.command_handler.dispatcher: [Dispatcher] Acción no reconocida: saludo
+2026-11-14 19:17:39,281 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:17:39,282 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:17:39,283 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:17:40,604 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:17:42,777 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:17:42,777 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:17:42,777 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'success'
+2026-11-14 19:20:48,758 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:20:48,758 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:20:48,760 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:20:50,055 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:20:53,611 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:20:53,611 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:20:53,612 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'success'
+2026-11-14 19:24:38,967 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:24:38,967 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:24:38,968 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:24:40,087 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:24:42,832 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:24:42,833 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:24:42,833 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'success'
+2026-11-14 19:28:03,672 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:28:03,672 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:28:03,673 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:28:05,332 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:28:07,633 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:28:07,634 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:28:07,634 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'success'
+2026-11-14 19:30:26,726 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:30:26,727 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:30:26,728 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:30:28,650 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:30:31,300 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:30:31,301 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:30:31,301 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'success'
+2026-11-14 19:33:32,618 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:33:32,618 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:33:32,619 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:33:33,682 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:33:36,502 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:33:36,503 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:33:36,503 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'dict' object has no attribute 'msg'
+2026-11-14 19:34:05,636 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:34:05,636 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:34:05,637 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:34:06,626 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-14 19:34:09,021 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:34:09,022 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:34:09,022 [ERROR] JarvisCLI: [Main]: Error en el bucle principal: 'IntentResult' object has no attribute 'get'
+2026-11-14 19:35:43,469 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-14 19:35:43,469 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-14 19:35:43,470 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-14 19:35:45,169 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: }hola
+2026-11-14 19:35:47,584 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:35:47,585 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:35:47,585 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-14 19:35:56,826 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: como estas hoy?
+2026-11-14 19:36:01,421 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:36:01,421 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:36:01,422 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-14 19:36:14,917 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola como estas?
+2026-11-14 19:36:17,191 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:36:17,192 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:36:17,192 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-14 19:36:23,496 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: seguro?
+2026-11-14 19:36:26,077 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:36:26,078 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-14 19:36:26,078 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-14 19:36:33,140 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: abrir firefox
+2026-11-14 19:36:34,884 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-14 19:36:34,885 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-11-14 19:36:34,885 [WARNING] src.SL.command_handler.system_command: [SystemCommand] No se especificó una aplicación
+2026-11-22 17:29:29,909 [INFO] JarvisCLI: [Main] Inicializando componentes de infraestructura...
+2026-11-22 17:29:29,910 [INFO] src.SL.os_engine.factory: [OSfactory] Instanciando LinuxAdapter...
+2026-11-22 17:29:29,910 [INFO] src.core.assistant: Core del sistema inicializado correctamente
+2026-11-22 17:29:31,422 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: hola
+2026-11-22 17:29:37,565 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 17:29:37,566 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-22 17:29:37,566 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-22 17:29:49,194 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: Todo correcto ¿Puedes decirme tu nombre?
+2026-11-22 17:29:52,540 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 17:29:52,540 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-22 17:29:52,540 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-22 17:30:01,877 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: Dime como te llamas
+2026-11-22 17:30:04,111 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 17:30:04,111 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-22 17:30:04,111 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-22 17:30:26,638 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: quien eres?
+2026-11-22 17:30:30,223 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 17:30:30,224 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: chat
+2026-11-22 17:30:30,224 [INFO] JarvisCLI: [Main] abierto con chat desde None
+2026-11-22 17:30:42,061 [INFO] src.core.assistant: Iniciando proceso de reconocimiento para: Necesito que abras firefox
+2026-11-22 17:30:43,782 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-11-22 17:30:43,782 [INFO] src.SL.command_handler.dispatcher: [Dispatcher] Ejecutando acción: open_app
+2026-11-22 17:30:43,782 [WARNING] src.SL.command_handler.system_command: [SystemCommand] No se especificó una aplicación

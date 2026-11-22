@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BaseAppFinder",
+  "description": "Clase base abstracta que define el contrato estricto para los finders de cada SO\n\n\nCualquier finder concreto DEBE implementar todos los métodos marcados\ncon @abstractmethod.",
+  "type": "object",
+  "x-module": "src.SL.app_finder.base_finder",
+  "x-kind": "abstract_base_class",
+  "x-methods": {
+    "get_apps": {
+      "description": "Escanea el sistema operativo en busca de aplicaciones instaladas.\n\nReturn:\n    Un diccionario/mapa de pares clave-valor donde:\n    - Clave: Nombre de la aplicación en minúsculas (ej: \"google chrome\", \"spotify\").\n    - Valor: Ruta absoluta al ejecutable, acceso directo o comando del sistema\n             (ej: \"/usr/bin/google-chrome\" o \"C:\\Program Files\\...\\spotify.exe\").",
+      "x-abstract": true,
+      "parameters": {},
+      "returns": {
+        "type": "dict[str, str]",
+        "description": "Un diccionario/mapa de pares clave-valor donde: - Clave: Nombre de la aplicación en minúsculas (ej: \"google chrome\", \"spotify\"). - Valor: Ruta absoluta al ejecutable, acceso directo o comando del sistema (ej: \"/usr/bin/google-chrome\" o \"C:\\Program Files\\...\\spotify.exe\")."
+      }
+    }
+  }
+}

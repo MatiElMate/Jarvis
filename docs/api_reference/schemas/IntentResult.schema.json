@@ -1,0 +1,27 @@
+{
+  "description": "Contenedor de respuesta estandarizado para la intención analizada.",
+  "properties": {
+    "action_name": {
+      "description": "Campo 'action_name'",
+      "title": "Action Name",
+      "type": "string"
+    },
+    "params": {
+      "additionalProperties": true,
+      "description": "Campo 'params'",
+      "title": "Params",
+      "type": "object"
+    },
+    "confidence": {
+      "default": 0.0,
+      "description": "Campo 'confidence'",
+      "title": "Confidence",
+      "type": "number"
+    }
+  },
+  "required": [
+    "action_name"
+  ],
+  "title": "IntentResult",
+  "type": "object"
+}

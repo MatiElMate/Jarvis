@@ -1,0 +1,35 @@
+{
+  "description": "CommandResult(success: bool, msg: str, data: Optional[Dict[str, Any]] = None)",
+  "properties": {
+    "success": {
+      "description": "Campo 'success'",
+      "title": "Success",
+      "type": "boolean"
+    },
+    "msg": {
+      "description": "Campo 'msg'",
+      "title": "Msg",
+      "type": "string"
+    },
+    "data": {
+      "anyOf": [
+        {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Campo 'data'",
+      "title": "Data"
+    }
+  },
+  "required": [
+    "success",
+    "msg"
+  ],
+  "title": "CommandResult",
+  "type": "object"
+}
