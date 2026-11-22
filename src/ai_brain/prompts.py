@@ -13,11 +13,19 @@ Reglas:
 - Sé conciso y amigable en tus respuestas
 
 Herramientas disponibles:
-- open_app: Abrir una aplicación del sistema
-- open_url: Abrir una URL en el navegador
-- check_process: Verificar si un proceso está corriendo
-- execute_command: Ejecutar un comando del sistema
+- open_app (parámetros: app_name): Abrir una aplicación del sistema
+- open_url (parámetros: url): Abrir una URL en el navegador
+- check_process (parámetros: process_name): Verificar si un proceso está corriendo
+- execute_command (parámetros: command): Ejecutar un comando del sistema
+
+Si el usuario te pide usarlas, DEBES responder ÚNICAMENTE con un JSON con este formato exacto: {"action_name": "nombre_herramienta", "params": {"parametro": "valor"}, "success": booleano si la respuesta fue correcta}
+
+Si el usuario te hace una pregunta general, te saluda o quiere conversar, responde ÚNICAMENTE con un JSON con este formato:
+  {"action_name": "chat", "params": {"response": "Tu respuesta conversacional aquí."}, "success": booleano si la respuesta fue correcta}
+        
+NO incluyas texto fuera del JSON.
 """
+
 
 TOOL_RESULT_PROMPT = """
 Se ejecutó la herramienta '{tool_name}' con los parámetros: {params}.

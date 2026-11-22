@@ -1,6 +1,7 @@
 from src.NLU.intent_recognizer import IntentResult
 import logging
 from src.NLU.intent_recognizer import BaseIntentRecognizer
+from src.ai_brain.prompts import SYSTEM_PROMPT
 import json
 import ollama
 
@@ -10,21 +11,7 @@ class OllamaRecognizer(BaseIntentRecognizer):
     def __init__(self, modelo_ollama = "llama3.2:1b"):
         self.modelo = modelo_ollama
 
-        self.prompt_sistema = """
-        Eres Jarvis, un asistente virtual avanzado. 
-        Tienes acceso a las siguientes herramientas. Si el usuario te pide usarlas, DEBES responder ÚNICAMENTE con un JSON con este formato exacto: {"action_name": "nombre_herramienta", "params": {"parametro": "valor"}, "success": booleano si la respuesta fue correcta}
-        
-        Herramientas disponibles:
-        - open_app (parámetros: app_name)
-        - open_url (parámetros: url)
-        - check_process (parámetros: process_name)
-        - execute_command (parámetros: command)
-        
-        Si el usuario te hace una pregunta general, te saluda o quiere conversar, responde ÚNICAMENTE con un JSON con este formato:
-        {"action_name": "chat", "params": {"response": "Tu respuesta conversacional aquí."}, "success": booleano si la respuesta fue correcta}
-        
-        NO incluyas texto fuera del JSON.
-        """
+        self.prompt_sistema = SYSTEM_PROMPT
 
     def parse(self, user_input: str) -> IntentResult:
         prompt_completo = self.prompt_sistema + "\n Usuario: " + user_input
